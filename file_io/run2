@@ -1,0 +1,5 @@
+#!/bin/bash
+ghdl -e --std=08 fileio_tb
+R CMD BATCH gen_random_byte_signals.R
+ghdl -r --std=08 fileio_tb --wave=wf.ghw
+open -a /Applications/gtkwave.app wf.ghw

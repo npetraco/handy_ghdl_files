@@ -1,0 +1,4 @@
+#!/bin/bash
+ghdl -e general_tb
+ghdl -r general_tb --wave=wf.ghw
+open -a /Applications/gtkwave.app wf.ghw

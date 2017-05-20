@@ -1,0 +1,4 @@
+#!/bin/bash
+ghdl -a --std=08 fileio_tb.vhd
+ghdl -e --std=08 fileio_tb
+ghdl -r --std=08 fileio_tb --wave=wf.ghw

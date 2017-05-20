@@ -1,0 +1,4 @@
+#!/bin/bash
+ghdl -e general_tb
+ghdl -r general_tb --vcd=wf.vcd
+open -a /Applications/gtkwave.app wf.vcd

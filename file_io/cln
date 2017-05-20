@@ -1,0 +1,4 @@
+#!/bin/bash
+ghdl --remove
+rm -rf wf.* *.Rout *.o *.cf
+rm -i *.txt

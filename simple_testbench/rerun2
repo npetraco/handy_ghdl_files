@@ -1,0 +1,4 @@
+#!/bin/bash
+ghdl -a fbuf.vhd fbuf_tb.vhd
+ghdl -e fbuf_tb
+ghdl -r fbuf_tb --wave=wf.ghw

@@ -1,0 +1,3 @@
+#!/bin/bash
+# ENTITIES=other_entities.vhd
+ghdl -a general_tb.vhd # Add $ENTITIES before the tb if required

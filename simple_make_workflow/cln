@@ -1,0 +1,3 @@
+#!/bin/bash
+ghdl --remove --std=08
+rm -rf wf.*
