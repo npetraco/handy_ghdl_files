@@ -1,6 +1,6 @@
-Execute:
-./cln
-./chk
+Execute: <\br>
+./cln <\br>
+./chk <\br>
 
 Then:
 ./run
