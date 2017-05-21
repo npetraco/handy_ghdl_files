@@ -4,8 +4,8 @@ simple stuff with ghdl. But that said, here is a Makefile workflow:
 1. Put necessary .vhd files (including a _tb file) into chk and run it once as ./chk
 
 2. Run:
-   * ghdl --gen-makefile WHATEVER_NAME_tb > Makefile to get a
-     skeleton makefile, then:
+   * ghdl --gen-makefile WHATEVER_NAME_tb > Makefile
+     * This gives a skeleton makefile.
    * make run
    * ./view
 
